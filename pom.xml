@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.uhealin</groupId>
+  <artifactId>lava-mahout</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>lava-mathout</name>
+  
+  
+  
+  <dependencies>
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout-examples -->
+<dependency>
+    <groupId>org.apache.mahout</groupId>
+    <artifactId>mahout-examples</artifactId>
+    <version>0.13.0</version>
+</dependency>
+  
+  
+  </dependencies>
+  
+</project>
