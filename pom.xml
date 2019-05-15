@@ -5,15 +5,43 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>lava-mathout</name>
   
-  
+  <properties>
+     <mahout.version>0.13.0</mahout.version>
+  </properties>
   
   <dependencies>
   
+  <dependency>
+            <groupId>jdk.tools</groupId>
+            <artifactId>jdk.tools</artifactId>
+            <version>1.7</version>
+            <scope>system</scope>
+            <systemPath>${JAVA_HOME}/lib/tools.jar</systemPath>
+</dependency>
+  
   <!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout-examples -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout-core -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout -->
+
+<!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout-utils -->
+
+
+
+
 <dependency>
     <groupId>org.apache.mahout</groupId>
     <artifactId>mahout-examples</artifactId>
-    <version>0.13.0</version>
+    <version>${mahout.version}</version>
+</dependency>
+  
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.mahout/mahout-spark-shell -->
+<dependency>
+    <groupId>org.apache.mahout</groupId>
+    <artifactId>mahout-spark_2.10</artifactId>
+    <version>${mahout.version}</version>
 </dependency>
   
   
